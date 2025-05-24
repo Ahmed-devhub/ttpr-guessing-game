@@ -1,1 +1,76 @@
-/* Write your CSS code in this file */
+/* Set full screen background */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url('https://wallpapercave.com/wp/V7SrzfM.jpg') no-repeat center center fixed;
+  background-image: url("https://image.shutterstock.com/z/stock-vector-large-and-small-question-mark-chaotic-pattern-with-questions-black-and-white-graphic-random-2128372238.jpg");
+  background-size: cover;
+  color: red; /* Default text color */
+}
+
+/* Main container styles */
+h1 {
+  font-size: 2em;
+  margin-top: 30px;
+  color: red;
+}
+
+h2 {
+  margin-top: -10px;
+  font-weight: bold;
+  color: red; /* Override old color */
+}
+
+/* Centered hash graphic */
+#hash-symbol {
+  font-size: 6rem;
+  color: red; /* Override */
+  margin: 20px 0;
+}
+
+/* Guess boxes */
+.guess-slot {
+  display: inline-block;
+  font-size: 2rem;
+  margin: 10px 10px;
+  padding: 5px;
+  width: 50px;
+  border-bottom: 2px solid red; /* match text color */
+  color: red;
+}
+
+/* Button styling */
+button {
+  padding: 10px 15px;
+  margin: 10px 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #dcdcdc;
+  box-shadow: 1px 1px 2px #888;
+  transition: background-color 0.3s ease;
+  color: red; /* Button text */
+}
+
+button:hover {
+  background-color: #c0c0c0;
+}
+
+/* Message section */
+#message {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  color: red;
+}
+
+/* Footer */
+footer {
+  margin-top: 80px; 
+  padding-bottom: 20px; 
+  font-size: 0.8rem;
+  color: red;
+}
+
